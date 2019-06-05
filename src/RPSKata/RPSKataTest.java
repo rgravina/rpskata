@@ -12,4 +12,9 @@ public class RPSKataTest {
     public void rockVsScissors() {
         assertEquals(P1_WINS, play(ROCK, SCISSORS));
     }
+
+    @Test
+    public void scissorsVsRock() {
+        assertEquals(P2_WINS, play(SCISSORS, ROCK));
+    }
 }
