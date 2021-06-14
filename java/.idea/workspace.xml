@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6fe37280-50b8-4ef1-8590-4b29fda564e8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RPSKata/RPS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RPSKata/RPS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RPSKata/RPSKataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RPSKata/RPSKataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RPSKata/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RPSKata/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RPSKata/Throw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RPSKata/Throw.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +25,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -48,6 +52,7 @@
     <option name="height" value="1417" />
   </component>
   <component name="ProjectId" id="1tv8oRYHhuBoSsNxvH6cyMM5IaV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -83,6 +88,10 @@
       </pane>
       <pane id="PackagesPane" />
     </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -144,6 +153,7 @@
       <updated>1559694733753</updated>
       <workItem from="1559694735113" duration="1668000" />
       <workItem from="1623638378011" duration="201000" />
+      <workItem from="1623638851041" duration="4412000" />
     </task>
     <servers />
   </component>
