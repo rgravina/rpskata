@@ -71,9 +71,9 @@ The test cases for other combinations will be similar. Write test cases for all 
 
 | P1 | P2 | Winner |
 |---|---|---|
-| R | P | P1 |
+| R | P | P2 |
 | R | S | P1 |
-| P | R | P2 |
+| P | R | P1 |
 | P | S | P2 |
 | S | R | P2 |
 | S | P | P1 |
