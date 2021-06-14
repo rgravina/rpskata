@@ -70,7 +70,7 @@ class RPS {
 The test cases for other combinations will be similar. Write test cases for all the other win and loss scenarios. Don't worry about draws for now.
 
 | P1 | P2 | Winner |
----
+|---|---|---|
 | R | P | P1 |
 | R | S | P1 |
 | P | R | P2 |
@@ -87,7 +87,7 @@ Questions:
 The draw test cases will be similar to the win/lose tests cases. You will need to implement handling draws while keeping the previous test cases passing.
 
 | P1 | P2 | Winner |
----
+|---|---|---|
 | R | R | - |
 | P | P | - |
 | S | S | - |
