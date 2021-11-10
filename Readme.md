@@ -5,6 +5,7 @@ The purpose of this coding kata is to learn basic Test Driven Development and re
 This can be done completed in many programming langauges. See directories for starter projects. We currently have starter projects in this repository for:
 
 * Java
+* Swift
 
 # The Game
 
