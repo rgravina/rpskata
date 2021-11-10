@@ -1,3 +1,3 @@
 # RPS
 
-A description of this package.
+A TDD workshop based on the Rock Paper Scissors game.
