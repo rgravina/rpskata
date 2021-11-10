@@ -52,6 +52,17 @@ public class RPSKataTest {
 }
 ```
 
+```swift
+import XCTest
+@testable import RPS
+
+final class RPSTests: XCTestCase {
+    func testRockVsScissors() {
+        XCTAssertEqual(RPS().play(p1: .rock, p2: .scissors), .p1wins)
+    }
+}
+```
+
 - What is the simplest code that makes it pass? 
 
 It's tempting to implement logic for the game here, but there's a really simple way to get this test to pass. Returning Player 1 wins! This may feel like cheating, but it's a core part of TDD. Do the simplest thing to make the tests pass.
@@ -60,6 +71,14 @@ It's tempting to implement logic for the game here, but there's a really simple 
 class RPS {
     static Result play(Throw p1, Throw p2) {
         return P1_WINS;
+    }
+}
+```
+
+```swift
+public struct RPS {
+    func play(p1: Throw, p2: Throw) -> GameResult {
+        return .p1wins
     }
 }
 ```
