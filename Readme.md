@@ -16,12 +16,46 @@ Rock Paper Scissors (RPS) is a two player game where each player choses one of r
 - Scissors beats paper.
 - Any two of the same kind is a draw.
 
-We will write test cases and code that when given the throw of the two players, will return the outcome.
+# The Wiring Test
 
-E.g. Assuming an enum exists for `Throw` and `Result`
+To ensure tests are setup correctly, we can write a first wiring test.
+
+## Java
 
 ```java
-play(ROCK, SCISSORS) # Returns P1_WINS
+public class RPSKataTest {
+    @Test
+    public void wiring() {
+        assertTrue(play());
+    }
+}
+```
+```java
+class RPS {
+    static Boolean play() {
+        return true;
+    }
+}
+```
+
+## Swift
+
+```swift
+import XCTest
+@testable import RPS
+
+final class RPSTests: XCTestCase {
+    func testWiring() {
+        XCTAssertTrue(RPS().play())
+    }
+}
+```
+```swift
+public struct RPS {
+    func play() -> Bool {
+        return true
+    }
+}
 ```
 
 # The First Test Cases
@@ -40,9 +74,9 @@ And Player 2 is rock.
 Then Player 2 wins.
 ```
 
-Questions:
-- How would you write a test to show rock beats paper?
+E.g. Assuming an enum exists for `Throw` and `Result`
 
+## Java
 ```java
 public class RPSKataTest {
     @Test
@@ -52,6 +86,7 @@ public class RPSKataTest {
 }
 ```
 
+## Swift
 ```swift
 import XCTest
 @testable import RPS
@@ -67,6 +102,7 @@ final class RPSTests: XCTestCase {
 
 It's tempting to implement logic for the game here, but there's a really simple way to get this test to pass. Returning Player 1 wins! This may feel like cheating, but it's a core part of TDD. Do the simplest thing to make the tests pass.
 
+## Java
 ```java
 class RPS {
     static Result play(Throw p1, Throw p2) {
@@ -75,6 +111,7 @@ class RPS {
 }
 ```
 
+## Swift
 ```swift
 public struct RPS {
     func play(p1: Throw, p2: Throw) -> GameResult {
