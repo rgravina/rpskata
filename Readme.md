@@ -5,6 +5,7 @@ The purpose of this coding kata is to learn basic Test Driven Development and re
 This can be done completed in many programming langauges. See directories for starter projects. We currently have starter projects in this repository for:
 
 * Java
+* Kotlin
 * Swift
 
 # The Game
@@ -37,6 +38,22 @@ class RPS {
     }
 }
 ```
+## Kotlin
+
+```kotlin
+class RPSKataTest {
+    @org.junit.jupiter.api.Test
+    internal fun wiring() {
+        assertTrue(true)
+    }
+}
+```
+```kotlin
+fun play(): Boolean {
+    return true
+}
+```
+
 
 ## Swift
 
@@ -86,6 +103,16 @@ public class RPSKataTest {
 }
 ```
 
+## Kotlin
+```kotlin
+class RPSKataTest {
+    @Test
+    fun rockVsScissors() {
+        assertEquals(P1_WINS, play(ROCK, SCISSORS))
+    }
+}
+```
+
 ## Swift
 ```swift
 import XCTest
@@ -110,7 +137,12 @@ class RPS {
     }
 }
 ```
-
+## Kotlin
+```kotlin
+fun play(p1: Throw, p2: Throw): Result {
+    return Result.P1_WINS
+}
+```
 ## Swift
 ```swift
 public struct RPS {
